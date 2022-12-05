@@ -1,0 +1,3 @@
+{"name":"Український","vegetableList":[{"name":"Огірок","weight":30.0,"calories":20.5}, {"name":"Помідор","weight":150.0,"calories":30.5}]}
+{"name":"Карпатський","vegetableList":[{"name":"Капуста","weight":125.0,"calories":30.0}, {"name":"Броколі","weight":50.0,"calories":50.0}]}
+{"name":"Бандерівський","vegetableList":[{"name":"Огірок","weight":30.0,"calories":20.5}, {"name":"Морква","weight":80.0,"calories":28.5}, {"name":"Цибуля","weight":15.0,"calories":33.0}]}
