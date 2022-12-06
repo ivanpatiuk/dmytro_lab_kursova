@@ -4,31 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39d6f811-4182-4255-ad5f-926957b5c992" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salads.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmytro/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmytro/consoleInterface/ConsoleInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmytro/consoleInterface/command/AddVegetableCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmytro/consoleInterface/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmytro/consoleInterface/command/RemoveVegetableCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmytro/consoleInterface/command/SaladCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmytro/consoleInterface/command/SaladNameCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmytro/entity/Salad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmytro/entity/Vegetable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmytro/exceptions/ExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmytro/exceptions/SaladCreatingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmytro/repository/SaladRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmytro/service/EmailUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmytro/service/SaladService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unitTests/SaladTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unitTests/VegetableTests.java" afterDir="false" />
+    <list default="true" id="39d6f811-4182-4255-ad5f-926957b5c992" name="Changes" comment="Rebase">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/ChangeSaladCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/CommandSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/CountCaloriesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/CreateSaladCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/CreateVegetableCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/FindVegetableCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/SortVegetableCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/consoleInterface/ConsoleInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Salad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Vegetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/VegetableBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/SaladRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/VegetableRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmytro/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmytro/consoleInterface/ConsoleInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmytro/consoleInterface/command/AddVegetableCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmytro/consoleInterface/command/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmytro/consoleInterface/command/RemoveVegetableCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmytro/consoleInterface/command/SaladCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmytro/consoleInterface/command/SaladNameCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmytro/entity/Salad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmytro/entity/Vegetable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmytro/exceptions/ExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmytro/exceptions/SaladCreatingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmytro/repository/SaladRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmytro/service/EmailUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmytro/service/SaladService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTests/SaladTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTests/SaladTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTests/VegetableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTests/VegetableTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +68,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Patiuk/Java/dima/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,15 +76,32 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "0f5b25cd58319cde0e6e33715b66db4c"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Patiuk\Java\dima\src\main\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Patiuk\Java\dima\src\main\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.dmytro.repository" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.EmailUtil">
+  <component name="RunManager" selected="Application.Application (1)">
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="dima" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dmytro.Application" />
       <module name="dima" />
@@ -133,31 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VegetableTests.twoVegetablesShouldBeEqualTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dima" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTests" />
-      <option name="MAIN_CLASS_NAME" value="unitTests.VegetableTests" />
-      <option name="METHOD_NAME" value="twoVegetablesShouldBeEqualTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.EmailUtil" />
         <item itemvalue="Application.SendEmailTLS" />
         <item itemvalue="Application.Application" />
         <item itemvalue="TestNG.SaladTests.shouldThrowExceptionWhenRemoveVegetable" />
-        <item itemvalue="TestNG.VegetableTests.twoVegetablesShouldBeEqualTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,5 +196,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rebase" />
   </component>
 </project>
